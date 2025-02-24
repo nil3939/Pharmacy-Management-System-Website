@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pharmacy Management System</h1>
+    </header>
+
+    <div class="container">
+        <div class="menu">
+            <h2>Welcome to the Pharmacy</h2>
+            <button onclick="window.location.href='#'">1. Add Medicine</button>
+            <button onclick="window.location.href='#'">2. Display Medicines</button>
+            <button onclick="window.location.href='#'">3. Search Medicine</button>
+            <button onclick="window.location.href='#'">4. Sell Medicine</button>
+            <button onclick="window.location.href='#'">5. Update Stock</button>
+            <button onclick="window.location.href='#'">6. Display Sales Records</button>
+            <button onclick="window.location.href='#'">7. Display Total Revenue</button>
+            <button onclick="window.location.href='#'">8. Print Receipt</button>
+            <button onclick="window.location.href='#'">9. Log Out</button>
+        </div>
+
+        <div class="login-form">
+            <h2>User Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div class="medicines">
+            <h2>Available Medicines</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Manufacturer</th>
+                        <th>Expiry Date</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Medicines will be displayed here -->
+                    <tr>
+                        <td>Paracetamol</td>
+                        <td>ABC Pharma</td>
+                        <td>01/2025</td>
+                        <td>50</td>
+                        <td>10 Tk</td>
+                    </tr>
+                    <tr>
+                        <td>Aspirin</td>
+                        <td>XYZ Pharma</td>
+                        <td>06/2024</td>
+                        <td>30</td>
+                        <td>20 Tk</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Pharmacy Management System</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
