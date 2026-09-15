@@ -16,6 +16,4 @@ Modern responsive pharmacy operations UI with a secure Node/Express API foundati
 - JWT registration/login endpoints, validation, hashing, rate limit, Helmet, CORS and core Mongo models.
 - API structures show the next modules: users, batches, inventory, suppliers, purchases, customers, prescriptions, invoices, returns, notifications, audit logs and settings.
 
-Before production, extend the core schemas into the separate model modules, introduce transactional inventory reservation/FEFO batch allocation, add file storage validation and PDF invoice/export endpoints.
-=======
 
