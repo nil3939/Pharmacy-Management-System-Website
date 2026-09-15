@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PharmaPulse Pharmacy Management System
 
 Modern responsive pharmacy operations UI with a secure Node/Express API foundation and a separate FastAPI intelligence service.
@@ -16,3 +17,6 @@ Modern responsive pharmacy operations UI with a secure Node/Express API foundati
 - API structures show the next modules: users, batches, inventory, suppliers, purchases, customers, prescriptions, invoices, returns, notifications, audit logs and settings.
 
 Before production, extend the core schemas into the separate model modules, introduce transactional inventory reservation/FEFO batch allocation, add file storage validation and PDF invoice/export endpoints.
+=======
+# Pharmacy Management System Website 
+>>>>>>> 855ae564cc0266133e51396ede7ba88963f3e040
